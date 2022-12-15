@@ -1,38 +1,94 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.main-header {
+  padding-top: 15px;
+  padding-inline: 30px;
+  padding-bottom: 18px;
+  background-color: #000003;
+}
+
+.banner-section {
+  display: flex;
+}
+
+.banner-info-div {
+  width: 40%;
+  background-color: #000003;
+  color: #fff;
+  padding-top: 100px;
+  padding-inline-start: 45px;
+  padding-inline-end: 25px;
+}
+
+.banner-info-div .banner-info-header {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.search-main-section {
+  background-color: #000003;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-data-grid-section{
+  background-color: #000003;
+  padding-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.data-grid-intro {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.data-grid-intro .data-grid-into-header{
+  font-size: 100px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.data-grid-intro .data-grid-into-subhead{
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.data-grid-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-basis: 50%;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.data-cards{
+  margin-inline: 25px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.display-prop-section{
+  position: relative;;
+}
+
+.pop-up-div{
+  position: absolute;
+  background-color: #5db8fe;
+  color: black;
+  padding: 25px;
+  width: 30%;
+  border-radius: 25px;
+  padding-inline-start: 50px;
+  font-size: 25px;
+  margin-left: 500px;
+  top: 25%;
 }
